@@ -9,6 +9,9 @@ public class Cliente {
     private String direccion;
     private String correo;
 
+    public Cliente() {
+    }
+
     public Cliente(String nombre, String documentoIdentificacion, int edad, String direccion, String correo) {
         this.nombre = nombre;
         this.documentoIdentificacion = documentoIdentificacion;
